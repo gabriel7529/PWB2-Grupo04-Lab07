@@ -26,7 +26,7 @@
 </theader>
 <tbody>
 <tr><td>ASIGNATURA:</td><td colspan="5">Programación Web 2</td></tr>
-<tr><td>TÍTULO DE LA PRACTICA:</td><td colspan="5"></td></tr>
+<tr><td>TÍTULO DE LA PRACTICA:</td><td colspan="5"> DJANGO - REST</td></tr>
 <tr><td>NÚMERO DE PRÁCTICA:</td><td>Practica de Laboratorio 07</td><td>AÑO LECTIVO:</td><td>2022 A</td><td>NRO. SEMESTRE:</td><td>III</td></tr>
 <tr><td>FECHA DE PRESENTACIÓN:</td><td>09/08/2022</td><td>HORA DE PRESENTACIÓN:</td><td colspan="3">11:30 p.m.</td></tr>
 <tr><td>INTEGRANTES:</td><td colspan="3">- Edson Joel López Quispe<br>- Gabriel Steven Machicao Quispe<br>- Fernando Coyla Alvarez</td><td>NOTA:</td><td>...</td></tr>
@@ -39,9 +39,8 @@
 </theader>
 <tbody>
 <tr><td>I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS:
+<p>...</p>
   </td></tr>
-<tr><td>II. SOLUCIÓN DEL CUESTIONARIO:</tr></td>
-<tr><td>III. CONCLUSIONES:</td><</tr>
 </tbody>
 </table>
 
@@ -59,6 +58,6 @@
 <tr><td>REFERENCIAS Y BIBLIOGRAFÍA</td><tr>
 </theader>
 <tbody>
-<tr><td></tr></td>
+<tr><td>...</tr></td>
 </tbody>
 </table>
