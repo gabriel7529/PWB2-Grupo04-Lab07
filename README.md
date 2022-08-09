@@ -133,7 +133,7 @@ Asi se veria la parte del cliente<br>
   <tr><td>RETROALIMENTACIÓN GENERAL</td><br><tr>
 </theader>
 <tbody>
-  <tr><td><p>...</p></td></tr>
+  <tr><td><p>La Tecnología de Rest de Django, permite crear un API para realizar peticiones asíncronas, es decir, no tener que actualizar la página para actualizar, sino que funciona aparte, junto con las tecnologías de petecion AJAX JQuery, que facilitan esta comunicación para el envio de datos a la base de datos, asi como el retorno.</p></td></tr>
 </tbody>
 </table>
 
