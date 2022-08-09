@@ -40,6 +40,27 @@
 <tbody>
 <tr><td>I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS:
 <p>...</p>
+<h2><strong>Creación del cliente (GET)</strong></h2>
+<h3>1. Creación de la vista </h3>
+La vista se crea en el archivo <em>views.py</em> en la ruta Apps/Aplicación1<br>
+<img src="imagenes_cliente/views.png"><br>
+La vista se escribe en forma de función, basicamente renderiza el archivo index.html, que se procedera a crear posteriormente
+<h3>2. Creación de la ruta de la vista</h3>
+Se crea el archivo <em>urls.py</em> en la ruta Apps/Aplicación1 y se escribe los siguiente<br>
+<img src="imagenes_cliente/urls.png"><br>
+Este código le asigna una ruta a la vista previamente creada.
+Posteriormente se edita el archivo <em>urls.py</em> de Proyecto<br>
+<img src="imagenes_cliente/urls2.png">
+<h3>3. Creación del archivo<em>index.html</em></h3>
+Para esto se crea una carpeta <em>templates</em> en la ruta Apps/Aplicación1<br>
+<h3>4. Creación de la petición Ajax </h3>
+<img src="imagenes_cliente/html.png"><br>
+A travéz del método Get se le hace la petición al url que dejo el Rest y se imprime en consola en forma de Array<br>
+<img src="imagenes_cliente/consola.png"><br>
+Se agrega contenido al html<br>
+<img src="imagenes_cliente/body.png"><br>
+Asi se veria la parte del cliente<br>
+<img src="imagenes_cliente/cli.png"><br>
   </td></tr>
 </tbody>
 </table>
