@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Productos</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>
+            const listProductos=()=>{
+                $.ajax({
+                    type:'GET',
+                    url:'http://127.0.0.1:8000/producto',
+                    contentType:'application/json',
+                    async:true,
+                    success:function(data){
+                        console.log(data);
+                    }, error:function(error){
+                        console.log(error);
+                    }
+                })
+            };
+            $(document).ready(function($){
+                listProductos();
+            })
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
