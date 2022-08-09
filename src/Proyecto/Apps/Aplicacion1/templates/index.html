@@ -3,6 +3,7 @@
         <title>Productos</title>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>
+            let text;
             const listProductos=()=>{
                 $.ajax({
                     type:'GET',
@@ -11,6 +12,10 @@
                     async:true,
                     success:function(data){
                         console.log(data);
+                        var today = new Date();
+                        document.getElementById("hora").innerHTML = today;
+                        text = data;
+
                     }, error:function(error){
                         console.log(error);
                     }
@@ -22,6 +27,22 @@
         </script>
     </head>
     <body>
-        
+        <p id="hora"></p>
+        <br>
+        <button onclick="imprimir()">Actualizar</button>
+        <h3>Lista</h3>
+        <div id="lista">
+            
+        </div>
+        <script>
+            function imprimir(){
+                let lista = "<ol>"
+                for(let i=0;i<text.length;i++){
+                    lista += "<li> Nombre: "+text[i].nombre+"  Precio Unitario :"+text[i].precio_unidad+"  Precio paquete: "+text[i].precio_paquete+"</li>";
+                }
+                lista += "</ol>"
+                document.getElementById("lista").innerHTML = lista
+            }
+        </script>
     </body>
 </html>

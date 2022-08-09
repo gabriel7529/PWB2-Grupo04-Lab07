@@ -56,7 +56,11 @@ Para esto se crea una carpeta <em>templates</em> en la ruta Apps/Aplicación1<br
 <h3>4. Creación de la petición Ajax </h3>
 <img src="imagenes_cliente/html.png"><br>
 A travéz del método Get se le hace la petición al url que dejo el Rest y se imprime en consola en forma de Array<br>
-<img src="imagenes_cliente/consola.png">
+<img src="imagenes_cliente/consola.png"><br>
+Se agrega contenido al html<br>
+<img src="imagenes_cliente/body.png"><br>
+Asi se veria la parte del cliente<br>
+<img src="imagenes_cliente/cli.png"><br>
   </td></tr>
 </tbody>
 </table>
