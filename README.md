@@ -126,6 +126,9 @@ Asi se veria la parte del cliente<br>
 <img src="imagenes_cliente/cli.png"><br>
 <h5>Link del proyecto en Heroku</h5>
 <a href="http://django-lab07-grupo04.herokuapp.com/producto/">Django-Lab07-Heroku</a><br>
+Está última linea se sustituye en el url que hace las peticiones<br>
+<img src="imagenes_cliente/ur3.png"><br>
+Y colocando <em><strong>/cliente</strong></em> en la url se ingresaria al cliente
   </td></tr>
 </tbody>
 </table>
