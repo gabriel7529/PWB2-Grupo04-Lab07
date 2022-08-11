@@ -124,6 +124,8 @@ Se agrega contenido al html<br>
 <img src="imagenes_cliente/body.png"><br>
 Asi se veria la parte del cliente<br>
 <img src="imagenes_cliente/cli.png"><br>
+<h5>Link del proyecto en Heroku</h5>
+<a href="http://django-lab07-grupo04.herokuapp.com/producto/">Django-Lab07-Heroku</a><br>
   </td></tr>
 </tbody>
 </table>
